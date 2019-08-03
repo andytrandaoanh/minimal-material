@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import AppBarInteraction from './drawers/CookBookC51';
+import Album from './templates/MuiHPAlbumA1';
 
 
 function App () {
 	return (
 		<div className = "App">
 			<BrowserRouter>
-				<AppBarInteraction />      
+				<Album />      
 			</BrowserRouter>
     	</div>
 	)
